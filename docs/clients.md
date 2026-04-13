@@ -14,4 +14,4 @@ CheckVIES provides official and community-maintained client libraries to help yo
 - [checkvies-client-jvm](https://github.com/example/checkvies-client-jvm) - Modern JVM client for Kotlin and Java.
 
 ## Community Examples
-Have you created a client for CheckVIES? [Let us know](https://github.com/checkvies/checkvies-docs/issues) and we'll add it here!
+Have you created a client for CheckVIES? [Let us know](https://github.com/checkvies/docs/issues) and we'll add it here!

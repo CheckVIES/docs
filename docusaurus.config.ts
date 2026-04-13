@@ -104,7 +104,7 @@ const config: Config = {
           position: 'left',
         },
         {
-          href: 'https://github.com/checkvies/checkvies-docs',
+          href: 'https://github.com/checkvies/docs',
           label: 'GitHub',
           position: 'right',
         },
@@ -140,7 +140,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/checkvies/checkvies-docs',
+              href: 'https://github.com/checkvies/docs',
             },
           ],
         },
