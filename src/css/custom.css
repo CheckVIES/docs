@@ -6,25 +6,116 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --btn-bg: rgba(39,97,234, 1);
+  --btn-text: #ffffff;
+  --btn-border: #2761EA;
+  --btn-hover-bg: rgba(39,97,234, 0.15);
+
+  --ifm-color-primary: #2761EA;
+  --ifm-color-primary-dark: #1652e0;
+  --ifm-color-primary-darker: #154dd3;
+  --ifm-color-primary-darkest: #1140ae;
+  --ifm-color-primary-light: #4073ec;
+  --ifm-color-primary-lighter: #4c7cee;
+  --ifm-color-primary-lightest: #7298f1;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --ifm-footer-background-color: #A1B0DC;
+  /*--ifm-footer-color: #1c1e21;*/
+  /*--ifm-footer-link-color: #096dd9;*/
+  /*--ifm-footer-link-hover-color: #0056b3;*/
+  /*--ifm-footer-title-color: #495057;*/
+
+  /*--ifm-hero-background-color: var(--ifm-color-primary);*/
+  /*--ifm-hero-text-color: var(--ifm-font-color-base-inverse);*/
+
+  --ifm-footer-link-color: #33333;
+
+  /*--ifm-button-background-color: #2761EA;*/
+  /*--ifm-button-color: #ffffff;*/
+  /*--ifm-button-border-color: #2563eb;*/
+  /*--ifm-button-font-weight: 600;*/
+  /*--ifm-button-font-family: inherit;*/
+  /*--ifm-button-border-radius: 8px;*/
+  /*--ifm-button-padding-vertical: 0.75rem;*/
+  /*--ifm-button-padding-horizontal: 1.5rem;*/
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #a8c4f2;
+  --ifm-color-primary-dark: #84aced;
+  --ifm-color-primary-darker: #72a0ea;
+  --ifm-color-primary-darkest: #3d7be2;
+  --ifm-color-primary-light: #ccdcf7;
+  --ifm-color-primary-lighter: #dee8fa;
+  --ifm-color-primary-lightest: #ffffff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  --ifm-footer-background-color: #1f2020;
 }
+
+.button {
+  font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+  font-weight: 500;
+}
+
+.button--lg {
+  padding: 16px 24px;
+  height: 60px;
+  min-width: 120px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.button, .button--primary {
+  background-color: var(--btn-bg) !important;
+  color: var(--btn-text) !important;
+  border-color: var(--btn-border) !important;
+}
+.button:hover, .button--primary:hover {
+  background-color: rgba(39,97,234, 0.85) !important;
+  color: var(--btn-text) !important;
+  border-color: unset;
+  text-decoration: none;
+}
+
+.button--outline {
+  background-color: rgba(39, 97, 234, 0.15) !important;
+  color: var(--btn-bg) !important;
+  border: none;
+}
+
+[data-theme='dark'] .button--outline {
+  color: #f3f3f3 !important;
+}
+
+.button--outline:hover {
+  background-color: rgba(39, 97, 234, 0.35) !important;
+  color: var(--btn-bg) !important;
+  border-color: var(--btn-hover-bg) !important;
+}
+
+[data-theme='dark'] .button--outline:hover {
+  color: #f3f3f3 !important;
+}
+
+.button--outline:active {
+  background-color: rgba(39, 97, 234, 0.2) !important;
+  transform: translateY(1px);
+}
+
+.hero__title {
+  font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.hero__subtitle {
+  font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+

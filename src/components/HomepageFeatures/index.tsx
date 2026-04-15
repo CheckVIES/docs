@@ -12,7 +12,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Real-time Validation',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/feat1.svg').default,
     description: (
       <>
         CheckVIES provides instantaneous VAT number validation against the official VIES database, ensuring your data is always accurate.
@@ -21,7 +21,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Modern API',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/feat2.svg').default,
     description: (
       <>
         Built with developers in mind, our RESTful API is well-documented, easy to integrate, and supports multiple programming languages.
@@ -30,7 +30,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Scalable & Reliable',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/feat3.svg').default,
     description: (
       <>
         Designed for high availability and performance, CheckVIES can handle everything from single requests to large-scale batch processing.
@@ -42,7 +42,7 @@ const FeatureList: FeatureItem[] = [
 function Feature({title, Svg, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
+      <div className="text--center mb-lg" style={{marginBottom: '2rem'}}>
         <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">

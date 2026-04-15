@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 import type {Options as OpenApiDocsOptions} from 'docusaurus-plugin-openapi-docs';
 
 const config: Config = {
-  title: 'CheckVIES',
+  title: 'CheckVIES Docs',
   tagline: 'Validate VAT numbers via VIES efficiently',
   favicon: 'img/favicon.ico',
 
@@ -14,6 +14,31 @@ const config: Config = {
   // GitHub pages deployment config.
   organizationName: 'checkvies',
   projectName: 'checkvies-docs',
+
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preconnect',
+        href: 'https://fonts.googleapis.com',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preconnect',
+        href: 'https://fonts.gstatic.com',
+        crossorigin: 'anonymous',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap',
+        rel: 'stylesheet',
+      },
+    },
+  ],
 
   future: {
     faster: true,
@@ -78,13 +103,13 @@ const config: Config = {
   themes: ['docusaurus-theme-openapi-docs'],
 
   themeConfig: {
-    // Replace with your project's social card here
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/og-image.jpg',
     navbar: {
-      title: 'CheckVIES',
+      title: '',
       logo: {
         alt: 'CheckVIES Logo',
-        src: 'img/logo.svg',
+        src: 'img/vieslogo.svg',
+        srcDark: 'img/vieslogo-dark.svg',
       },
       items: [
         {
@@ -111,7 +136,6 @@ const config: Config = {
       ],
     },
     footer: {
-      style: 'dark',
       links: [
         {
           title: 'Docs',
@@ -145,7 +169,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} CheckVIES. Built with Docusaurus.`,
+      copyright: `Copyright ©2026 CheckVIES. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
