@@ -1,5 +1,6 @@
 {
   "name": "temp-docusaurus",
+  "packageManager": "yarn@4.13.0",
   "version": "0.0.1",
   "private": true,
   "scripts": {
