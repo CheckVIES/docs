@@ -118,4 +118,17 @@
   letter-spacing: 0.01em;
 }
 
+.navbar__logo img {
+  width: clamp(150px, 20vw, 200px);
+}
 
+.hero__title {
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  @media (max-width: 480px) {
+    gap: 0;
+  }
+}
