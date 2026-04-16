@@ -2,16 +2,20 @@
 
 CheckVIES provides official and community-maintained client libraries to help you get started quickly.
 
+## Usage examples
+
+Please see the [repository](https://github.com/CheckVIES/usage-examples) with example projects for the CheckVIES API client libraries usage. 
+
 ## Official Libraries
 
 ### TypeScript / JavaScript
-- [checkvies-client-js](https://github.com/example/checkvies-client-js) - Modern TypeScript client for Node.js and Browser.
+- [client-lib-js](https://github.com/CheckVIES/client-lib-js) - Modern TypeScript client for Node.js and Browser.
 
 ### C# / .NET
-- [checkvies-client-dotnet](https://github.com/example/checkvies-client-dotnet) - High-performance .NET client supporting .NET 6+.
+- [client-lib-dotnet](https://github.com/CheckVIES/client-lib-dotnet) - High-performance .NET client supporting .NET Standard 2.0.
 
 ### Kotlin / Java
-- [checkvies-client-jvm](https://github.com/example/checkvies-client-jvm) - Modern JVM client for Kotlin and Java.
+- [client-lib-jvm](https://github.com/CheckVIES/client-lib-jvm) - Modern JVM client for Kotlin and Java.
 
 ## Community Examples
-Have you created a client for CheckVIES? [Let us know](https://github.com/checkvies/docs/issues) and we'll add it here!
+Have you created a client for CheckVIES or need something else? [Let us know](https://github.com/checkvies/docs/issues) and we'll add it here!
