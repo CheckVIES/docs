@@ -15,7 +15,7 @@ Please see the [repository](https://github.com/CheckVIES/usage-examples) with ex
 - [client-lib-dotnet](https://github.com/CheckVIES/client-lib-dotnet) - High-performance .NET client supporting .NET Standard 2.0.
 
 ### Kotlin / Java
-- [client-lib-kotlin](https://github.com/CheckVIES/client-lib-kotlin) - Modern JVM client for Kotlin and Java.
+- [client-lib-jvm](https://github.com/CheckVIES/client-lib-jvm) - Modern JVM client for Kotlin and Java.
 
 ## Community Examples
 Have you created a client for CheckVIES or need something else? [Let us know](https://github.com/checkvies/docs/issues) and we'll add it here!
