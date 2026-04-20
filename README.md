@@ -10,6 +10,14 @@ This repository contains the documentation for CheckVIES, a service for validati
 ## Installation
 
 ```bash
+# Set up node.js using nvm
+nvm install
+
+# Set up yarn using corepack
+corepack install
+corepack enable
+
+# Install dependencies
 yarn install
 ```
 
